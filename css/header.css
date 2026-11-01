@@ -5,10 +5,14 @@ border-bottom: 1px solid #e7e9fc;
 .header .container {
 display: flex;
 max-width: 1158px;
-justify-content: space-between;
+justify-content: flex-start;
 align-items: center;
 padding: 0 15px;
-margin: 0 auto;
+margin: 0 auto; 
+}
+
+.header .contacts {
+    margin-left: 340px;
 }
 
 .logo {
